@@ -43,3 +43,49 @@ Health : Test automatique du endpoint /health
 
 **Livrables**
 .gitlab-ci.yml ou workflow GitHub Actions
+
+
+----
+
+## Partie 2 – Kubernetes (20 pts)
+
+### Travail demandé
+**Déployer l’application sur Kubernetes avec :**
+
+    Deployment
+    Service
+    ConfigMap
+    LivenessProbe
+    ReadinessProbe
+
+**Contraintes**
+
+    2 réplicas minimum
+    Rolling update sans interruption
+    Fichiers séparés
+
+**Livrables**
+
+k8s/
+├── deployment.yaml
+├── service.yaml
+└── configmap.yaml
+
+**Causes d’échec automatique**
+
+    Pipeline non bloquant
+    Absence des probes dans kubernetes (LivenessProbe, ReadinessProbe)
+    L'application ne se deploie pas
+
+---
+
+**Rendu final**
+
+Dossier de projet au format nom-prenom.zip contenant :
+
+    Projet (SUPPRIMER LE DOSSIER node_modules !!)
+    Fichiers kubernetes
+    README :
+        Architecture
+        Choix techniques
+        Commandes clés

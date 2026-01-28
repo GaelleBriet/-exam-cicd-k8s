@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: simple-api-config
+  namespace: simple-api
+data:
+  APP_PORT: "3000"

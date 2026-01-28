@@ -55,7 +55,7 @@ Health : Test automatique du endpoint /health
     Deployment
     Service
     ConfigMap
-    LivenessProbe
+    LivenessProbec
     ReadinessProbe
 
 **Contraintes**
